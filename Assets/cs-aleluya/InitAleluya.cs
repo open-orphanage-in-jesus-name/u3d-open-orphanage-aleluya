@@ -11,14 +11,6 @@ public class InitAleluya : MonoBehaviour
     StartCoroutine( ManagerAleluya.Instance_aleluya.Init_aleluya() );
   }
 
-  public void LogoutButton_aleluya() {
-    ManagerAleluya.Instance_aleluya.Logout_aleluya();
-  }
-
-  public void ChildrenMenuButton_aleluya() {
-    ManagerAleluya.Instance_aleluya.SetVisibleMainPanelNamed_aleluya("children-panel-aleluya");
-    ManagerAleluya.Instance_aleluya.DisplayChildren_aleluya();
-  }
   
   // Start is called before the first frame update
   void Start()
